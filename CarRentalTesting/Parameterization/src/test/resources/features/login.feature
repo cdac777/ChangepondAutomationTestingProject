@@ -17,7 +17,7 @@ Feature: Login page automation of saucedemo application
     Examples: 
       | useremail  | userpassword |
       | siva123@gmail.com | siva123 |
-      | sandeep123@gmail.com | sandeep234 |
+      | sandeep123@gmail.com | sandeep34 |
       | eeswaran123@gmail.com | eeswaran123 |
       | basilahamed46@gmail.com | basil |
 
