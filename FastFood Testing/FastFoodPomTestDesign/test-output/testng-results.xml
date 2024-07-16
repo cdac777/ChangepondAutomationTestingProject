@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-16T11:45:50 IST" name="Default suite" finished-at="2024-07-16T11:47:24 IST" duration-ms="93526">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberTestRunner.POMTestRunner@77c2494c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-07-16T11:45:50 IST" name="Default test" finished-at="2024-07-16T11:47:24 IST" duration-ms="93526">
+      <class name="cucumberTestRunner.POMTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberTestRunner.POMTestRunner@77c2494c]" started-at="2024-07-16T11:45:50 IST" name="setUpClass" finished-at="2024-07-16T11:45:51 IST" duration-ms="916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@22e5f96e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberTestRunner.POMTestRunner@77c2494c]" started-at="2024-07-16T11:45:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-16T11:47:23 IST" duration-ms="92393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check login is successful with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page automation of saucedemo application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberTestRunner.POMTestRunner@77c2494c]" started-at="2024-07-16T11:47:24 IST" name="tearDownClass" finished-at="2024-07-16T11:47:24 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberTestRunner.POMTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
